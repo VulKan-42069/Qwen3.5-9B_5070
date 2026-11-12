@@ -1,0 +1,28 @@
+# Model weights: large binary files, never version controlled
+/models/
+
+# llama.cpp release binaries / third-party distribution (not source)
+/llama.cpp/
+
+# Transient download staging
+/downloads/
+
+# Scratch space and helper scripts
+/tmp/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Large binary artifacts anywhere in the tree (belt and suspenders)
+*.gguf
+*.zip
+*.dll
+*.exe
+*.bin
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+desktop.ini
